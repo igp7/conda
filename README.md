@@ -33,7 +33,7 @@
 |conda env export --name ENVNAME > envname.yml o conda env export > envname.yml|Exporte un entorno a un archivo YAML que pueda ser leído en Windows, macOS y Linux.|
 |conda env create --file envname.yml|Crear un entorno a partir de un archivo YAML.|
 |conda env create|Crea un entorno a partir del archivo llamado environment.yml en el directorio actual.|
-|conda list [--explicit|-e] > requirements.txt|Exportar un entorno con versiones exactas de paquetes para un sistema operativo.|
+|conda list [--explicit\|-e] > requirements.txt|Exportar un entorno con versiones exactas de paquetes para un sistema operativo.|
 |conda create --name NEWENV --file pkgs.txt|Crear un entorno basado en las versiones exactas de los paquetes.|
 
 
@@ -44,7 +44,7 @@
 |anaconda search FUZZYNAME|Encuentre un paquete en todos los canales utilizando el Cliente Anaconda.|
 |conda install conda-forge::PKGNAME|Instalar el paquete desde un canal específico.|
 |conda install PKGNAME==3.1.4|Instalar un paquete por número de versión exacto (3.1.4).|
-|conda install "PKGNAME[version='3.1.2|3.1.4']"|Instale una de las versiones de la lista (OR).|
+|conda install "PKGNAME[version='3.1.2\|3.1.4']"|Instale una de las versiones de la lista (OR).|
 |conda install "PKGNAME>2.5,<3.2"|Instale las siguientes restricciones (AND).|
 |conda config --add channels CHANNELNAME|Añade un canal a tu configuración de Conda.|
 
